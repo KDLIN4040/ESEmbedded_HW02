@@ -123,7 +123,7 @@ push{r1, r2, r3, r4} 與 push{r4, r3, r2, r1}
 pop{r5, r6, r7, r8}  與 pop{r8, r7, r6, r5}
 ```
 的差別
-清空暫存器並執行si後發現，
+，清空暫存器並執行si後發現，
 系統將push{r4,r3,r2,r1}, pop{r8,r7,r6,r5}默認為push{r1,r2,r3 r4}, pop{r5,r6,r7,r8}!!
 ![](http://md.nc.es.ncku.edu.tw/uploads/upload_2ecde58963a677b57d1f766170b0964e.png)
 
