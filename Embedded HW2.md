@@ -139,6 +139,7 @@ A7.7.101 PUSH
  
 * ### pop    
 ![](http://md.nc.es.ncku.edu.tw/uploads/upload_2fa3891ea0b1f8ea84233ca9ae626698.png)
+
 在registers中寫到，如果一次pop多個registers，數字最小的暫存器會從最低的記憶體位置抓資料，而數字最高的暫存器會得到最高的記憶體位置的資料。這也是為什麼，pop{r5,r6,r7,r8} 會先讓r5去拿資料的原因。
     
 由push與pop的架構我們得知，我們交換暫存器的順序是沒有用的，
