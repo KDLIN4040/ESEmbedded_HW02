@@ -51,7 +51,7 @@ This is the hw02 sample. Please follow the steps below.
 
 --------------------
 
-- [x] **If you volunteer to give the presentation next week, check this.**
+- [] **If you volunteer to give the presentation next week, check this.**
 
 --------------------
 
